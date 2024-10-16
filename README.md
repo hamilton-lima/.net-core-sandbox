@@ -16,3 +16,26 @@ sudo apt-get install -y dotnet-sdk-8.0
 
 https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet
 
+
+### Create a new console application
+
+dotnet new console -n HelloWorld
+
+### Install dev kit for C#
+
+Name: C# Dev Kit
+Id: ms-dotnettools.csdevkit
+Description: Official C# extension from Microsoft
+Version: 1.11.14
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
+
+## Create a solution and add Console and test projects to it
+
+``` 
+dotnet new sln -n HelloWorld
+dotnet new console -n HelloWorld.Console
+dotnet new xunit -n HelloWorld.Tests
+dotnet sln HelloWorld.sln add HelloWorld.Console/HelloWorld.Console.csproj
+dotnet sln HelloWorld.sln add HelloWorld.Tests/HelloWorld.Tests.csproj
+``` 
