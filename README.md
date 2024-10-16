@@ -38,4 +38,10 @@ dotnet new console -n HelloWorld.Console
 dotnet new xunit -n HelloWorld.Tests
 dotnet sln HelloWorld.sln add HelloWorld.Console/HelloWorld.Console.csproj
 dotnet sln HelloWorld.sln add HelloWorld.Tests/HelloWorld.Tests.csproj
+cd HelloWorld.Tests
+dotnet add reference ../HelloWorld.Console/HelloWorld.Console.csproj
 ``` 
+
+- Adding to the same solution, does not create the reference between projects! 🔥 
+- To execute the program `dotnet run` 
+- To test `dotnet test` 

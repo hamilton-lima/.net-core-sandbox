@@ -1,6 +1,0 @@
-/home/ubuntu/source/.net-core-sandbox/HelloWorld.Tests/obj/Debug/net8.0/HelloWorld.Tests.csproj.AssemblyReference.cache
-/home/ubuntu/source/.net-core-sandbox/HelloWorld.Tests/obj/Debug/net8.0/HelloWorld.Tests.GeneratedMSBuildEditorConfig.editorconfig
-/home/ubuntu/source/.net-core-sandbox/HelloWorld.Tests/obj/Debug/net8.0/HelloWorld.Tests.AssemblyInfoInputs.cache
-/home/ubuntu/source/.net-core-sandbox/HelloWorld.Tests/obj/Debug/net8.0/HelloWorld.Tests.AssemblyInfo.cs
-/home/ubuntu/source/.net-core-sandbox/HelloWorld.Tests/obj/Debug/net8.0/HelloWorld.Tests.csproj.CoreCompileInputs.cache
-/home/ubuntu/source/.net-core-sandbox/HelloWorld.Tests/obj/Debug/net8.0/HelloWorld.Tests.sourcelink.json

@@ -14,7 +14,7 @@ public class HelloWorldConsoleTest
         Console.SetOut(writer);
 
         // Act
-        HelloWorld.Console.Program.Main(new string[0]);
+        HelloWorld.Program.Main(new string[0]);
 
         // Assert
         var output = writer.GetStringBuilder().ToString().Trim();

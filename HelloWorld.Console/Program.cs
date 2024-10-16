@@ -1,4 +1,4 @@
-﻿namespace HelloWorld.Console;
+﻿namespace HelloWorld;
 
 public class Program
 {
