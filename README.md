@@ -45,3 +45,16 @@ dotnet add reference ../HelloWorld.Console/HelloWorld.Console.csproj
 - Adding to the same solution, does not create the reference between projects! 🔥 
 - To execute the program `dotnet run` 
 - To test `dotnet test` 
+
+## Adding some test reports 
+
+```
+cd path/to/HelloWorld.Tests
+dotnet new tool-manifest
+dotnet tool install dotnet-reportgenerator-globaltool
+dotnet tool install coverlet.console
+dotnet add package coverlet.collector
+
+Create GenerateTestReport.sh
+chmod +x GenerateTestReport.sh
+``` 
