@@ -58,3 +58,10 @@ dotnet add package coverlet.collector
 Create GenerateTestReport.sh
 chmod +x GenerateTestReport.sh
 ``` 
+
+## Packages and packages ... errr... nuggets! 🐔🍗
+
+https://www.nuget.org
+
+This seems to be the boss of all nugets! https://www.nuget.org/packages/newtonsoft.json/
+
